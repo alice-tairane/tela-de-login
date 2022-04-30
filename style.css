@@ -1,0 +1,85 @@
+*{
+    margin: 0; padding: 0; font-family: sans-serif;
+}
+
+.login{
+    height: 100vh;
+    background: linear-gradient(120deg,#e75590,#ccda51);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-conteiner{
+    background: white;
+    min-height: 400px;
+    width: 300px;
+    border-style: border-box;
+    padding: 33px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-title{
+    margin-bottom: 33px;
+    color: #030303;
+}
+.login-form{
+    width:100% ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-input{
+    height: 48px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    padding-left: 8px;
+    border: unset;  /*some a borda */
+}
+
+.login-input-password{
+    height: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    padding-left: 8px;
+    border: unset;
+}
+
+.login-input-borde{
+    height: 1px;
+    width: 100%;
+    margin-bottom: 16px; /* margem na parte de baixo */
+    transition: .3s ease-in; 
+    background-color: #cfcfcf;
+}
+
+.login-botao{
+    margin-top: 30px;
+    height: 40px;
+    width: 200px;
+    border-radius: 30px ;
+    border-style: none;
+    background: linear-gradient(120deg,#e75590,#ccda51);
+    transition-timing-function: ease-in;
+    
+    
+}
+
+button:hover{
+    width: 300px;
+    height: 50px;
+    transition-timing-function: ease-in;
+    
+}
+
+.login-recuperar-senha{
+    margin-top: 30px;
+    text-decoration: none;
+    font-style:italic;
+}
